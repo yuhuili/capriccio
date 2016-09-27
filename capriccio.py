@@ -67,6 +67,7 @@ class Alarm(object):
       is_random (bool): if sound generator should be used instead of an audio file.
         
     '''
+    self.playing = False
     self.should_stop = True
     
     now = datetime.datetime.now()
@@ -121,6 +122,7 @@ class Alarm(object):
       tune (str): The filename of the alarm audio file.
       
     '''
+    self.playing = True
     music = pyglet.media.load(tune)
     sg = pyglet.media.SourceGroup(music.audio_format, None)
     sg.loop = True
