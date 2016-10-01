@@ -184,6 +184,8 @@ class SoundGen(object):
       self.__set_instrument__(127, 0.2)
     elif instrument == 8: # Ensemble: String Ensemble 2
       self.__set_instrument__(49, 0.4)
+    elif instrument == 9: # Pipe: Piccolo
+      self.__set_instrument__(72, 0.4)
     else: # Default: Piano: Electric Grand Piano
       self.__set_instrument__(2, 0.3)
     

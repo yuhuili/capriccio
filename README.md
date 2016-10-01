@@ -50,6 +50,7 @@ Currently the following instruments are available for SoundGen:
 | 6 | Bird Tweet | 124 |
 | 7 | Gunshot | 128 |
 | 8 | String Ensemble 2 | 50 |
+| 9 | Piccolo | 73 |
 
 *: Default (anything not in the list)
 
