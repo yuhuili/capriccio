@@ -4,7 +4,9 @@ A simple alarm clock module written in Python. You could set the alarm audio to 
 ## Dependencies
 [pyglet](http://www.pyglet.org), for playing audio. Pyglet also requires [AVbin](http://avbin.github.io/AVbin/Home/Home.html) to decode mp3 files.
 
-[mingus](https://github.com/bspaans/python-mingus), for SoundGen, capriccio's sound generator.
+[mingus](https://github.com/bspaans/python-mingus), for SoundGen, capriccio's sound generator
+
+[fluidsynth](http://www.fluidsynth.org/) for MIDI playback
 
 ## Example (with an audio file)
 ```python
